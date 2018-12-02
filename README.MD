@@ -5,4 +5,4 @@
 
 <hr>
 
-##### [Docker Repository](https://hub.docker.com/u/rahulvaish/)
+##### [Docker Hub](https://hub.docker.com/u/rahulvaish/)
