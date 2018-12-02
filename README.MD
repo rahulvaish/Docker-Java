@@ -5,4 +5,4 @@
 
 <hr>
 
-##### [Docker Hub](https://hub.docker.com/u/rahulvaish/)
+##### [Docker Hub URL](https://hub.docker.com/u/rahulvaish/)
