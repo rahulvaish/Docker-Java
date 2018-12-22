@@ -21,6 +21,8 @@ This repository contains methods to Dockerize Java Projects.
    ###### This example illustrates how to Dockerize a SpringBoot Project. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDocker)
    - Introduce a Dockerfile in your Project's 'root':
   ![image](https://user-images.githubusercontent.com/689226/50369586-0eb24500-05be-11e9-9e95-d5f328f136aa.png)
+   - Notice the plugin introduced in pom.xml 
+   ![image](https://user-images.githubusercontent.com/689226/50370570-2a721700-05cf-11e9-80b1-98e85560114d.png)
   - Dockerfile for this project would look like:
    ![image](https://user-images.githubusercontent.com/689226/50369597-44572e00-05be-11e9-8770-753592e37ca4.png)
   - Initiate Docker Quick Start Terminal
