@@ -7,9 +7,9 @@
   - Navigate till inside your Project's 'root'. Exeute the below commands:
    ![image](https://user-images.githubusercontent.com/689226/50369643-145c5a80-05bf-11e9-9ce1-9ce8e4b809f9.png)
   - Now, the application is Up and Running.
-  - To know your IP:
+  - To know your IP:</br>
    ![image](https://user-images.githubusercontent.com/689226/50369691-8af95800-05bf-11e9-9763-489b66899c94.png)
-  - Test your Application:
+  - Test your Application:</br>
    ![image](https://user-images.githubusercontent.com/689226/50369706-ae240780-05bf-11e9-91ff-0c4716ecacf8.png)
   - Now, **tag** your image and **push** on Docker Hub. Execute the below commands:
   - docker login
