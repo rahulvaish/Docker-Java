@@ -14,4 +14,4 @@
 
 <hr>
 
-##### [Docker Hub URL](https://hub.docker.com/r/rahulvaish/hellodocker/)
+##### [Docker Hub URL](https://cloud.docker.com/repository/docker/rahulvaish/helloworldjavadocker)
