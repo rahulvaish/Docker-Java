@@ -42,7 +42,7 @@ This repository contains methods to Dockerize Java Projects.
   - docker push rahulvaish/springbootdocker
   - Check Docker Hub:[[Docker Hub URL]](https://cloud.docker.com/u/rahulvaish/repository/docker/rahulvaish/springbootdocker)
   ![image](https://user-images.githubusercontent.com/689226/50370495-c00ca700-05cd-11e9-97a3-1f33262301b7.png)
-  - **NOTE: Threrfore to execute any SpringBoot project from Docker Hub**:
+  - **NOTE: Therefore to execute any SpringBoot project from Docker Hub**:
    ![image](https://user-images.githubusercontent.com/689226/50369766-9731e500-05c0-11e9-935e-b345b93ad8d4.png)
 
 
