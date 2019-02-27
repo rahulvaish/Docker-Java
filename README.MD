@@ -27,7 +27,7 @@
 ##### Document: [StepsToDockerizeSpringBootProject](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingDocker/StepsToDockerizeSpringBootProject.docx)
 ##### Document: [StepsToDeploySpringBootDockerImageOnOpenShift](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingDocker/StepsToDeploySpringBootDockerImageOnOpenShift.docx)
 ##### Document: [StepsToDeploySpringBootDockerImageOnKubernetes[Minikube]](https://github.com/rahulvaish/ReferenceDocuments/tree/master/Understanding%20Kubernetes)
-
+##### Document: [StepsToDeploySpringBootDockerImageOnAzure](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingDocker/StepsToDeploySpringBootDockerImageOnAzure.docx)
 <hr>
 
 ##### [Docker Hub URL](https://hub.docker.com/r/rahulvaish/springbootdocker/)
