@@ -3,7 +3,7 @@ This repository contains methods to Dockerize Java Projects.
 ### Table of Contents
   - <a href='#Dockerizing-helloworld-java-application'>Dockerizing HelloWorld Java Application</a> 
   - <a href='#dockerizing-springboot-application'>Dockerizing SpringBoot Application</a> 
-  - <a href='#springboot-inter-container-communication'>Spring Boot Inter Container Communication</a> 
+  - <a href='#springboot-inter-container-communication'>SpringBoot Inter Container Communication</a> 
 
 <hr>
 
@@ -48,7 +48,7 @@ This repository contains methods to Dockerize Java Projects.
 
 
 
-- ###### [Spring Boot Inter Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO) 
+- ###### [SpringBoot Inter Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO) 
    ###### This example illustrates how SpringBoot Docker containers communicate. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO)
    - Start the docker containers: </br>
    ![image](https://user-images.githubusercontent.com/689226/58383146-a34b2400-7ff0-11e9-9748-777cfc3997fd.png)  </br>
