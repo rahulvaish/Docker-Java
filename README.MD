@@ -6,6 +6,7 @@ This repository contains methods to Dockerize Java Projects.
   - <a href='#Dockerizing-helloworld-java-application'>Dockerizing HelloWorld Java Application</a> 
   - <a href='#dockerizing-springboot-application'>Dockerizing SpringBoot Application</a> 
   - <a href='#springboot-inter-container-communication'>SpringBoot Inter Container Communication</a> 
+  - <a href='#springboot-docker-compose'>SpringBoot Docker Compose</a> 
 
 <hr>
 
@@ -54,6 +55,15 @@ This repository contains methods to Dockerize Java Projects.
    ###### This example illustrates how SpringBoot Docker containers communicate. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO)
    - Start the docker containers: </br>
    ![image](https://user-images.githubusercontent.com/689226/58383146-a34b2400-7ff0-11e9-9748-777cfc3997fd.png)  </br>
-   - Test the service: **CalculatorServiceClient** container inteacts with **CalculatorService** container.
+   - Test the service: **CalculatorServiceClient** container inteacts with **CalculatorService** container.  </br>
    ![image](https://user-images.githubusercontent.com/689226/58383153-ca095a80-7ff0-11e9-9e0f-18973121e2f2.png)
+
+
+- ###### [SpringBoot Docker Compose](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose) 
+   ###### This example illustrates how Docker Compose works with two springBoot Projects.This is the Calculator Service and Calculator Client Application, where Calculator Service is *Producer* and Calculator Client is *Consumer* [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose)
+   - Navigate till the client folder, and execute **docker-compose up** command. </br>
+   ![image](https://user-images.githubusercontent.com/689226/58763623-c8a0da80-857a-11e9-8e4a-cc6285256e85.png)
+   - Test the service: **CalculatorServiceClient** container inteacts with **CalculatorService** container.  </br>
+   ![image](https://user-images.githubusercontent.com/689226/58763657-33521600-857b-11e9-993f-b00d76e402d0.png)
+
 
