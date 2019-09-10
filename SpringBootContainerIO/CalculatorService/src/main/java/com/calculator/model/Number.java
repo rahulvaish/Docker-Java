@@ -17,6 +17,4 @@ public class Number {
 		this.secondNumber = secondNumber;
 	}
 	
-	
-
 }

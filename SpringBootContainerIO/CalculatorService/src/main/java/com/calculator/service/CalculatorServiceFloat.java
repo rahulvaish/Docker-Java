@@ -1,5 +1,8 @@
 package com.calculator.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class CalculatorServiceFloat {
 
 	public String addition(String firstNumber, String secondNumber) {
