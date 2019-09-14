@@ -1,6 +1,6 @@
 ### To Dockerize a SpringBoot Project. Follow the below steps:
   - Introduce a Dockerfile in your Project's 'root':
-  ![image](https://user-images.githubusercontent.com/689226/50369586-0eb24500-05be-11e9-9e95-d5f328f136aa.png)
+   ![image](https://user-images.githubusercontent.com/689226/64902980-c9472200-d6ce-11e9-8a25-a9450d2c920d.png)
   - Dockerfile for this project would look like:
    ![image](https://user-images.githubusercontent.com/689226/50369597-44572e00-05be-11e9-8770-753592e37ca4.png)
   - Notice the plugin introduced in pom.xml 
@@ -23,14 +23,5 @@
    ![image](https://user-images.githubusercontent.com/689226/50369766-9731e500-05c0-11e9-935e-b345b93ad8d4.png)
 
 <hr>
-
-##### Document: [StepsToDockerizeSpringBootProject](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingDocker/StepsToDockerizeSpringBootProject.docx)
-##### Document: [StepsToDeploySpringBootDockerImageOnOpenShift](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingDocker/StepsToDeploySpringBootDockerImageOnOpenShift.docx)
-##### Document: [StepsToDeploySpringBootDockerImageOnKubernetes[Minikube]](https://github.com/rahulvaish/ReferenceDocuments/tree/master/Understanding%20Kubernetes)
-##### Document: [StepsToDeploySpringBootDockerImageOnAzure](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingDocker/StepsToDeploySpringBootDockerImageOnAzure.docx)
-<hr>
-
-##### [Docker Hub URL](https://hub.docker.com/r/rahulvaish/springbootdocker/)
-
 
 
