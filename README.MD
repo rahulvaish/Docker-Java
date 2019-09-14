@@ -1,6 +1,6 @@
 ### To Dockerize a SpringBoot Project. Follow the below steps:
   - Introduce a Dockerfile in your Project's 'root':
-   ![image](https://user-images.githubusercontent.com/689226/64902993-f693d000-d6ce-11e9-9242-d58528b78a6c.png)
+   ![image](https://user-images.githubusercontent.com/689226/64903001-1aefac80-d6cf-11e9-8283-057bbf17d8d0.png)
   - Dockerfile for this project would look like:
    ![image](https://user-images.githubusercontent.com/689226/50369597-44572e00-05be-11e9-8770-753592e37ca4.png)
   - Notice the plugin introduced in pom.xml 
