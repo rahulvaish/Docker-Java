@@ -41,7 +41,8 @@ This repository contains methods to Dockerize Java Projects.
   - Test your Application:</br>
    ![image](https://user-images.githubusercontent.com/689226/50369706-ae240780-05bf-11e9-91ff-0c4716ecacf8.png)
   - Now, **tag** your image and **push** on Docker Hub. Execute the below commands:
-  - docker login
+  - docker login --username=rahulvaish
+  - Enter your password (on prompt)
   - docker tag springbootdocker rahulvaish/springbootdocker
   - docker push rahulvaish/springbootdocker
   - Check Docker Hub:[[Docker Hub URL]](https://cloud.docker.com/u/rahulvaish/repository/docker/rahulvaish/springbootdocker)
