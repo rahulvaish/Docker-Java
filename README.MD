@@ -70,4 +70,6 @@ This repository contains methods to Dockerize Java Projects.
 
 
 - ###### [SpringBoot Docker Volume](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDockerVolume) 
-   ###### This example illustrates how Docker Volumes works with SpringBoot Project.The experiment was carried on *MAC* and not on *Docker Quickstart Terminal* (wich could not allow local mounting) Besides, *Docker For Windows* could only run on *WIN-10-PRO*. The commnd to execute Docker Volumes for this project is [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDockerVolume)
+   ###### This example illustrates how Docker Volumes works with SpringBoot Project.The experiment was carried on *MAC* and not on *Docker Quickstart Terminal* (wich could not allow local mounting) Besides, *Docker For Windows* could only run on *WIN-10-PRO*. The commnd to execute Docker Volumes for this project is: *docker run -p 8080:8080 -v /Users/rvaish/SBDV/LocalMountForLogs:/app/logs springbootdockervolume* [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDockerVolume)
+
+
