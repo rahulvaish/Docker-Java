@@ -1,35 +1,36 @@
 package com.calculator.service;
+import org.springframework.stereotype.Service;
 
-public class CalculatorServiceFloat {
+@Service
+public class CalculatorServiceInteger {
 
 	public String addition(String firstNumber, String secondNumber) {
 		if (firstNumber != null && secondNumber != null) {
 			try {
-				float val1 = Float.parseFloat(firstNumber);
-				float val2 = Float.parseFloat(secondNumber);
-				float sum = val1 + val2;
+				int val1 = Integer.parseInt(firstNumber);
+				int val2 = Integer.parseInt(secondNumber);
+				int sum = val1 + val2;
 				return String.valueOf(sum);
 			} catch (NumberFormatException exception) {
-				return "ERROR: Enter the floating numbers";
+				return "ERROR: Enter the int numbers";
 			}
-		}
-		else {
+		} else {
 			return "ERROR: Computing numbers can not be null";
 		}
+
 	}
 
 	public String substraction(String firstNumber, String secondNumber) {
 		if (firstNumber != null && secondNumber != null) {
 			try {
-				float val1 = Float.parseFloat(firstNumber);
-				float val2 = Float.parseFloat(secondNumber);
-				float sub = val1 - val2;
+				int val1 = Integer.parseInt(firstNumber);
+				int val2 = Integer.parseInt(secondNumber);
+				int sub = val1 - val2;
 				return String.valueOf(sub);
 			} catch (NumberFormatException exception) {
-				return "ERROR: Enter the floating numbers";
+				return "ERROR: Enter the int numbers";
 			}
-		}
-		else {
+		} else {
 			return "ERROR: Computing numbers can not be null";
 		}
 	}
@@ -37,15 +38,14 @@ public class CalculatorServiceFloat {
 	public String multiplication(String firstNumber, String secondNumber) {
 		if (firstNumber != null && secondNumber != null) {
 			try {
-				float val1 = Float.parseFloat(firstNumber);
-				float val2 = Float.parseFloat(secondNumber);
-				float mul = val1 * val2;
+				int val1 = Integer.parseInt(firstNumber);
+				int val2 = Integer.parseInt(secondNumber);
+				int mul = val1 * val2;
 				return String.valueOf(mul);
 			} catch (NumberFormatException exception) {
-				return "ERROR: Enter the floating numbers";
+				return "ERROR: Enter the int numbers";
 			}
-		}
-		else {
+		} else {
 			return "ERROR: Computing numbers can not be null";
 		}
 	}
@@ -53,21 +53,19 @@ public class CalculatorServiceFloat {
 	public String division(String firstNumber, String secondNumber) {
 		if (firstNumber != null && secondNumber != null) {
 			try {
-				float val1 = Float.parseFloat(firstNumber);
-				float val2 = Float.parseFloat(secondNumber);
+				int val1 = Integer.parseInt(firstNumber);
+				int val2 = Integer.parseInt(secondNumber);
 				if (val2 != 0 || val2 != 0.0) {
-					float div = val1 / val2;
+					int div = val1 / val2;
 					return String.valueOf(div);
 				} else {
 					return String.valueOf(0);
 				}
 			} catch (NumberFormatException exception) {
-				return "ERROR: Enter the floating numbers";
+				return "ERROR: Enter the int numbers";
 			}
-		}
-		else {
+		} else {
 			return "ERROR: Computing numbers can not be null";
 		}
 	}
-
 }
