@@ -56,9 +56,9 @@ This repository contains methods to Dockerize Java Projects.
 - ###### [SpringBoot Inter Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO) 
    ###### This example illustrates how SpringBoot Docker containers communicate. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO)
    - Start the docker containers: </br>
-   ![image](https://user-images.githubusercontent.com/689226/58383146-a34b2400-7ff0-11e9-9748-777cfc3997fd.png)  </br>
+     ![image](https://user-images.githubusercontent.com/689226/66031134-69e76f80-e520-11e9-8900-63de8c17228a.png) </br>
    - Test the service: **CalculatorServiceClient** container inteacts with **CalculatorService** container.  </br>
-   ![image](https://user-images.githubusercontent.com/689226/58383153-ca095a80-7ff0-11e9-9e0f-18973121e2f2.png)
+     ![image](https://user-images.githubusercontent.com/689226/66031077-491f1a00-e520-11e9-9b79-400d738e9622.png)
 
 
 - ###### [SpringBoot Docker Compose](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose) 
