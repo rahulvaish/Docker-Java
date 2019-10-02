@@ -13,8 +13,8 @@ public class PseudoServiceForCalculatorService {
 
 	public String callService(String firstNumber, String secondNumber, String operationPath) {
 		Client client = Client.create();
-		//String calculatorServiceURL="http://localhost:8097";
-		String calculatorServiceURL="http://192.168.99.100:8097";
+		// On MAC PC, IP of Container worked for me !
+		String calculatorServiceURL="http://192.168.99.100:8080";
 		WebResource webResource = client.resource(calculatorServiceURL + operationPath);
 		String input = "{\"firstNumber\":\"" + firstNumber + "\",\"secondNumber\":\"" + secondNumber + "\"}";
         
