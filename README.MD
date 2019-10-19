@@ -7,8 +7,8 @@ This repository contains methods to Dockerize Java Projects.
   - <a href='#dockerizing-springboot-application'>Dockerizing SpringBoot Application</a> 
   - <a href='#springboot-inter-container-communication'>SpringBoot Inter Container Communication</a> 
   - <a href='#springboot-mysql-container-communication'>SpringBoot-MySQL Container Communication</a> 
-  - <a href='#springboot-docker-compose'>SpringBoot-DockerCompose</a> 
-  - <a href='#springboot-docker-volume'>SpringBoot-DockerVolume</a> 
+  - <a href='#springboot-dockercompose'>SpringBoot-DockerCompose</a> 
+  - <a href='#springboot-dockervolume'>SpringBoot-DockerVolume</a> 
   
 <hr>
 
