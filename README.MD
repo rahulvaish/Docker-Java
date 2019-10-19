@@ -6,9 +6,9 @@ This repository contains methods to Dockerize Java Projects.
   - <a href='#Dockerizing-helloworld-java-application'>Dockerizing HelloWorld Java Application</a> 
   - <a href='#dockerizing-springboot-application'>Dockerizing SpringBoot Application</a> 
   - <a href='#springboot-inter-container-communication'>SpringBoot Inter Container Communication</a> 
-  - <a href='#springboot-mysql-container-communication'>SpringBoot MySQL Container Communication</a> 
-  - <a href='#springboot-docker-compose'>SpringBoot Docker Compose</a> 
-  - <a href='#springboot-docker-volume'>SpringBoot Docker Volume</a> 
+  - <a href='#springboot-mysql-container-communication'>SpringBoot-MySQL Container Communication</a> 
+  - <a href='#springboot-docker-compose'>SpringBoot-DockerCompose</a> 
+  - <a href='#springboot-docker-volume'>SpringBoot-DockerVolume</a> 
   
 <hr>
 
@@ -62,7 +62,7 @@ This repository contains methods to Dockerize Java Projects.
      ![image](https://user-images.githubusercontent.com/689226/66031356-d82c3200-e520-11e9-9892-3e5cb5456b11.png)
 
 
-- ###### [SpringBoot MySQL Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootMySQL) 
+- ###### [SpringBoot-MySQL Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootMySQL) 
    ###### This example illustrates how SpringBoot Docker container communicates with MySQL container. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootMySQL)
    - Start the MySQL container: </br>
    ```
@@ -85,7 +85,7 @@ This repository contains methods to Dockerize Java Projects.
 
 
     
-- ###### [SpringBoot Docker Compose](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose) 
+- ###### [SpringBoot-DockerCompose](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose) 
    ###### This example illustrates how Docker Compose works with two springBoot Projects.Here, CalculatorService is *Producer* and CalculatorServiceClient is *Consumer* [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose)
    - First prepare the docker images of both **CalculatorService** and **CalculatorServiceClient**
    - Navigate till the client folder, and execute **docker-compose up** command. </br>
@@ -94,7 +94,7 @@ This repository contains methods to Dockerize Java Projects.
      ![image](https://user-images.githubusercontent.com/689226/66038816-cce10280-e530-11e9-9253-08ed215ce8f5.png)
 
 
-- ###### [SpringBoot Docker Volume](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDockerVolume) 
+- ###### [SpringBoot-DockerVolume](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDockerVolume) 
    ###### This example illustrates how Docker Volumes works with SpringBoot Project.The experiment was carried on *MAC* and not on *Docker Quickstart Terminal* (wich could not allow local mounting) Besides, *Docker For Windows* could only run on *WIN-10-PRO*. The command to execute Docker Volumes for this project is *docker run -p 8080:8080 -v /Users/rvaish/SBDV/LocalMountForLogs:/app/logs springbootdockervolume*
    
   
