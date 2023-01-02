@@ -31,8 +31,8 @@ This repository contains methods to Dockerize Java Projects.
   <img width="1728" alt="image" src="https://user-images.githubusercontent.com/689226/210188180-34499ca2-d80b-44fb-be59-0432138fcbd9.png">
   <img width="1642" alt="image" src="https://user-images.githubusercontent.com/689226/210188193-406cc1f0-67b8-424a-9627-060e0881d267.png">
   <img width="1723" alt="image" src="https://user-images.githubusercontent.com/689226/210188233-129c85a8-36c9-4400-9cdb-d2da767b1970.png">
-  <img width="967" alt="image" src="https://user-images.githubusercontent.com/689226/210188257-1e2c8d74-e8a4-44ce-b4a0-f8d9645cd8b5.png">
-  
+  <img width="382" alt="image" src="https://user-images.githubusercontent.com/689226/210188343-e0cd9f17-af3f-4c96-9d98-6aea5be05087.png">
+
   - Now, **tag** your image and **push** on Docker Hub. Execute the below commands:
   - docker login --username=rahulvaish
   - Enter your password (on prompt)
