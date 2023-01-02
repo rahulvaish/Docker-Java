@@ -14,7 +14,7 @@ public class CustomerDAO {
      @Autowired
      private JdbcTemplate jdbcTemplate;
  
-     private static final String SQL = "select * from customer";
+     private static final String SQL = "select * from mysqldb.customer";
  
      public List<Customer> isData() {
  
