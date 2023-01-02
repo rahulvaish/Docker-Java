@@ -41,7 +41,7 @@ This repository contains methods to Dockerize Java Projects.
   - docker push rahulvaish/springbootdocker
     <img width="810" alt="image" src="https://user-images.githubusercontent.com/689226/210193571-6b418088-5b9c-44ca-962d-369d2b3adf85.png">
   
-
+ <hr>
 
 
 - ###### [SpringBoot Inter Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO) 
@@ -51,26 +51,25 @@ This repository contains methods to Dockerize Java Projects.
    - Test the service: **CalculatorServiceClient** container inteacts with **CalculatorService** container.  </br>
      ![image](https://user-images.githubusercontent.com/689226/66031356-d82c3200-e520-11e9-9892-3e5cb5456b11.png)
 
-
+ <hr>
+ 
 - ###### [SpringBoot-MySQL Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootMySQL) 
    ###### This example illustrates how SpringBoot Docker container communicates with MySQL container. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootMySQL)
+   - Create a private network
+     ![image](https://user-images.githubusercontent.com/689226/210200502-13125f24-77f8-4597-88cb-1215c4e16e76.png)
    - Start the MySQL container: </br>
-   ```
-   docker run --name mysqlcontainer -d -p 3306:3306 -e MYSQL_DATABASE=dev -e MYSQL_ROOT_PASSWORD=root mysql
-   ```
+     ```
+     docker container run --network springbootmysqlntw --name mysqlcontainer  -d -p 3306:3306 -e MYSQL_DATABASE=mysqldb -e MYSQL_ROOT_PASSWORD=root mysql
+     ```
    - Create Table & Insert some Data:  </br>
-   ![image](https://user-images.githubusercontent.com/689226/66045139-b8a50180-e540-11e9-964a-08e07d555c77.png)
+     <img width="1160" alt="image" src="https://user-images.githubusercontent.com/689226/210198420-c762e7af-7bda-4621-8ee8-0bc7a6fafc6a.png">
+   - Build & Start SpringBoot Application (on same private network)
+     <b>NOTE:</b> We are not hardcoding DB's IP. Instead using container's name.
+     ![image](https://user-images.githubusercontent.com/689226/210200459-d2bba194-d5f3-496b-a0cb-0bb4616e8559.png)
+     <img width="1691" alt="image" src="https://user-images.githubusercontent.com/689226/210200719-fccf68c6-0388-4ddc-929d-cea1a80b2987.png">
+     <img width="750" alt="image" src="https://user-images.githubusercontent.com/689226/210200787-e50b31c0-a789-4983-9f6d-231c956b8f3d.png">
 
-   - **Build** & **Run** SpringBoot Image: </br>
-   ```
-   docker build -f Dockerfile -t springbootdockermysqldocker .
-   
-   docker run -p 9070:9070 springbootdockermysqldocker
-   
-   FYI: On MAC, docker run -p 9070:9070 --link mysqlcontainer:mysqlcontainer springbootdockermysqldocker 
-   ```
-   - Test the service: </br>
-   ![image](https://user-images.githubusercontent.com/689226/66045691-daeb4f00-e541-11e9-8d6d-c797604fa387.png)
+  <hr>
 
 
 
