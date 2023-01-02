@@ -15,7 +15,7 @@ This repository contains methods to Dockerize Java Projects.
 - ###### [Dockerizing HelloWorld Java Application](https://github.com/rahulvaish/Docker-Java/tree/HelloDocker/HelloWorldJavaDocker) 
    ###### This example illustrates how to Dockerize a simple Java Project. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/HelloDocker)
    * Download the HelloWorldJavaDocker project.
-   * Navigate inside the HelloWorldJavaDocker project folder from Docker QuickStart Terminal.
+   * Navigate inside the HelloWorldJavaDocker project folder from Terminal.
    * Execute the below commands-
    ![image](https://user-images.githubusercontent.com/689226/50370746-6195f780-05d2-11e9-90b9-b34824d24a36.png)   
    ![image](https://user-images.githubusercontent.com/689226/50370760-9609b380-05d2-11e9-8beb-73244f00a763.png)
@@ -28,20 +28,11 @@ This repository contains methods to Dockerize Java Projects.
 
 - ###### [Dockerizing SpringBoot Application](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDocker) 
    ###### This example illustrates how to Dockerize a SpringBoot Project. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDocker)
-   - Introduce a Dockerfile in your Project's 'root':
-   ![image](https://user-images.githubusercontent.com/689226/64903001-1aefac80-d6cf-11e9-8283-057bbf17d8d0.png)
-   - Notice the plugin introduced in pom.xml 
-   ![image](https://user-images.githubusercontent.com/689226/50370570-2a721700-05cf-11e9-80b1-98e85560114d.png)
-  - Dockerfile for this project would look like:
-   ![image](https://user-images.githubusercontent.com/689226/50369597-44572e00-05be-11e9-8770-753592e37ca4.png)
-  - Initiate Docker Quick Start Terminal
-  - Navigate till inside your Project's 'root'. Exeute the below commands:
-   ![image](https://user-images.githubusercontent.com/689226/50369643-145c5a80-05bf-11e9-9ce1-9ce8e4b809f9.png)
-  - Now, the application is Up and Running.
-  - To know your IP:</br>
-   ![image](https://user-images.githubusercontent.com/689226/50369691-8af95800-05bf-11e9-9763-489b66899c94.png)
-  - Test your Application:</br>
-   ![image](https://user-images.githubusercontent.com/689226/50369706-ae240780-05bf-11e9-91ff-0c4716ecacf8.png)
+  <img width="1728" alt="image" src="https://user-images.githubusercontent.com/689226/210188180-34499ca2-d80b-44fb-be59-0432138fcbd9.png">
+  <img width="1642" alt="image" src="https://user-images.githubusercontent.com/689226/210188193-406cc1f0-67b8-424a-9627-060e0881d267.png">
+  <img width="1723" alt="image" src="https://user-images.githubusercontent.com/689226/210188233-129c85a8-36c9-4400-9cdb-d2da767b1970.png">
+  <img width="967" alt="image" src="https://user-images.githubusercontent.com/689226/210188257-1e2c8d74-e8a4-44ce-b4a0-f8d9645cd8b5.png">
+  
   - Now, **tag** your image and **push** on Docker Hub. Execute the below commands:
   - docker login --username=rahulvaish
   - Enter your password (on prompt)
@@ -49,8 +40,7 @@ This repository contains methods to Dockerize Java Projects.
   - docker push rahulvaish/springbootdocker
   - Check Docker Hub:[[Docker Hub URL]](https://cloud.docker.com/u/rahulvaish/repository/docker/rahulvaish/springbootdocker)
   ![image](https://user-images.githubusercontent.com/689226/50370495-c00ca700-05cd-11e9-97a3-1f33262301b7.png)
-  - **NOTE: Therefore to execute any SpringBoot project from Docker Hub**:
-   ![image](https://user-images.githubusercontent.com/689226/50369766-9731e500-05c0-11e9-935e-b345b93ad8d4.png)
+  
 
 
 
