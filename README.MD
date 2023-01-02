@@ -46,10 +46,19 @@ This repository contains methods to Dockerize Java Projects.
 
 - ###### [SpringBoot Inter Container Communication](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO) 
    ###### This example illustrates how SpringBoot Docker containers communicate. [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/SpringBootContainerIO)
-   - Start the docker containers: </br>
-     ![image](https://user-images.githubusercontent.com/689226/66031134-69e76f80-e520-11e9-8900-63de8c17228a.png) </br>
-   - Test the service: **CalculatorServiceClient** container inteacts with **CalculatorService** container.  </br>
-     ![image](https://user-images.githubusercontent.com/689226/66031356-d82c3200-e520-11e9-9892-3e5cb5456b11.png)
+   - Create a private network </br>
+     <img width="1433" alt="image" src="https://user-images.githubusercontent.com/689226/210277696-4ec888be-dac0-4627-9800-2d3a6c2e57b4.png">
+   - Build then Start first container under private network:
+     ![image](https://user-images.githubusercontent.com/689226/210277246-9f70aa87-d0a9-4396-936f-5078c00f7167.png)
+     ![image](https://user-images.githubusercontent.com/689226/210277296-74e6a58f-012e-4f64-86d8-b236077ed4ab.png)
+   - Build then Start second container under same private network:  
+     <img width="1706" alt="image" src="https://user-images.githubusercontent.com/689226/210277582-4cea0c1c-3873-4f40-92a5-9c4ef8d27594.png">
+     <img width="1723" alt="image" src="https://user-images.githubusercontent.com/689226/210277524-2dd0664b-b656-44db-9cd2-7582f7cafaff.png">   
+   - Test - Making hit to second container which internally hits first container:
+     <img width="742" alt="image" src="https://user-images.githubusercontent.com/689226/210277405-3d2aaaf9-7621-490b-8165-f2b778f280c5.png">
+
+
+  
 
  <hr>
  
