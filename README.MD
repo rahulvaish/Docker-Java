@@ -93,7 +93,7 @@ This repository contains methods to Dockerize Java Projects.
 
 
 - ###### [SpringBoot-DockerVolume](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDockerVolume) 
-   ###### This example illustrates how Docker Volumes works with SpringBoot Project.
+   ###### This example illustrates how Docker Volumes - Mount Point works with SpringBoot Project.
      ![image](https://user-images.githubusercontent.com/689226/210479721-87f0c8d9-147b-4bc8-a5e0-60fc1a6bc30a.png)
      ![image](https://user-images.githubusercontent.com/689226/210479748-5a18d375-9e26-4021-a56e-bccd517a2d0f.png)
      ![image](https://user-images.githubusercontent.com/689226/210479768-990335f0-2277-47a6-81ac-afe9736ef465.png)
