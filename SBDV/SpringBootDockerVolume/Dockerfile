@@ -1,4 +1,4 @@
-FROM java:8
+FROM openjdk:17
 
 #Create base app folder
 WORKDIR /app
