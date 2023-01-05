@@ -1,20 +1,20 @@
 version: "3"
 services:
-  consumer:
-    image: client
+  calculatorserviceclient:
+    image: calculatorserviceclient
     ports:
       - "8090:8090"
     networks:
-      - consumer-producer
+      - calculatorclientservicentw
     depends_on:
-      - producer
- 
-  producer:
-    image: service
+      - calculatorservice
+
+  calculatorservice:
+    image: calculatorservice
     ports:
       - "8080:8080"
     networks:
-      - consumer-producer 
+      - calculatorclientservicentw
 
 networks:
-  consumer-producer:
+  calculatorclientservicentw:
