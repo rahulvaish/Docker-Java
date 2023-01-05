@@ -86,10 +86,13 @@ This repository contains methods to Dockerize Java Projects.
 - ###### [SpringBoot-DockerCompose](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose) 
    ###### This example illustrates how Docker Compose works with two springBoot Projects.Here, CalculatorService is *Producer* and CalculatorServiceClient is *Consumer* [[Source Code]](https://github.com/rahulvaish/Docker-Java/tree/DockerCompose)
    - First prepare the docker images of both **CalculatorService** and **CalculatorServiceClient**
-   - Navigate till the client folder, and execute **docker-compose up** command. </br>
-     ![image](https://user-images.githubusercontent.com/689226/66038857-e7b37700-e530-11e9-9bc1-b8bb6c8515dc.png)
-   - Test the service: **CalculatorServiceClient** container inteacts with **CalculatorService** container.  </br>
-     ![image](https://user-images.githubusercontent.com/689226/66038816-cce10280-e530-11e9-9253-08ed215ce8f5.png)
+     ```
+     docker build -f Dockerfile -t calculatorservice . 
+     docker build -f Dockerfile -t calculatorserviceclient .  
+     ```
+     ![image](https://user-images.githubusercontent.com/689226/210673969-e4c45568-7215-4281-92f9-428e8d984671.png)
+     <img width="613" alt="image" src="https://user-images.githubusercontent.com/689226/210674038-f3e8cda4-5578-439f-9157-c8ab977e520b.png">
+
 
 
 - ###### [SpringBoot-DockerVolume](https://github.com/rahulvaish/Docker-Java/tree/SpringBootDockerVolume) 
